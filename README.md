@@ -109,30 +109,6 @@ Only the Data sheet, the Year dropdown, the what-if cell and the target cells ho
 - Data validation and reconciliation checks
 ---
  
-## Known limitations
- 
-- Excel cannot hide the other dashboard pages when a menu item is clicked without a macro, so the menu **scrolls** to the page. An optional macro for page hiding was prepared but is untested.
-- Targets in Problems_Actions are common-sense defaults, not company rules. Replace them with real limits.
-- Profit at risk figures are simple estimates, not forecasts.
-- The forecast is only as reliable as its backtest error (MAPE) shown on page 5.
----
- 
-## Repository contents
- 
-```text
-.
-|-- Amazon_India_Dashboard_App.xlsx   # the dashboard workbook
-|-- README.md
-`-- docs/                             # optional: screenshots and the build guide
-```
- 
-Add screenshots of each dashboard page to `docs/` and link them here, for example:
- 
-```markdown
-![Overview](docs/page1_overview.png)
-```
- 
----
  
 ## Author
  
